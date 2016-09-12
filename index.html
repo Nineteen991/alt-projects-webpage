@@ -1,0 +1,128 @@
+<!DOCTYPE HTML>
+
+<html lang="en-US" />
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="keywords" content="web designer, web developer, freelance" />
+
+  <meta name="description" content="Web design / development" />
+
+  <title>Jason's Web Design/Development</title>
+
+  <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+
+  <link href="stylesheet" type="text/css" href="normalize.css" />
+
+  <link href='https://fonts.googleapis.com/css?family=Limelight' rel='stylesheet' type='text/css' />
+
+  <link href='https://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet' type='text/css' />
+
+  <link rel="stylesheet" type="text/css" href="main.css" />
+
+</head>
+
+<body>
+
+<!-------------------------header-------------------------------->
+  <div class = "radio_buttons">
+
+    <header>
+      <label for="slide_1" id="label_1">Home</label>
+      <label for="slide_2" id="label_2">my shop</label>
+      <label for="slide_3" id="label_3">Daisyburg</label>
+      <label for="slide_4" id="label_4">Resume</label>
+      <label for="slide_5" id="label_5">Blog</label>
+    </header>
+
+<!-------------------------slide 1------------------------------->
+
+    <input id="slide_1" type="radio" name="slides" checked>
+      <div class="slide slide-one">
+
+        <div class="content">
+
+          <!--<div class="labels">
+            <label for="slide_1" id="label_1">Home</label>
+            <label for="slide_2" id="label_2">slide-2</label>
+            <label for="slide_3" id="label_3">slide-3</label>
+            <label for="slide_4" id="label_4">slide-4</label>
+          </div>-->
+
+          <img class="me" src="images/Jason.jpg" alt="Profile pic" />
+          <div class="title">
+            <h1>Hi, I'm Jason</h1>
+            <h2>Junior Web Developer</h2>
+          </div>
+        </div>
+
+        <img class="spaceship" src="images/spaceship.png" alt="spaceship" />
+
+        <div class="about_me">
+          <p>This website is a variant of my resume website. I wanted to do something different.<p>
+          <p>Each link is a different website that I have created using different techniques. Why diffenent techniques?
+            Well, as I teach myself coding, I like to create example pages with what I have learned, here are a few.</p>
+          <p>The websites shown I've uploaded to github.</p>
+	      </div>
+
+      </div>
+
+<!-------------------------slide 2------------------------------->
+
+    <input id="slide_2" type="radio" name="slides">
+      <section class="slide slide-two">
+        <div class="content_2 container">
+          <h2>My first website...my store</h2>
+          <p>In addition to creating websites, I like to create metal art. Industrial Furniture & Decor is the name of a website that I created that
+          showcases some of the items that I have made. The goal of this website is to drive potential customers to my Etsy shop.</p>
+          <p>This was the first website that I have created. Originally it was made using css floats, later I decided to incorporate CSS3
+          and converted it to flexboxes, which was later converted to express.js and was just as easy.</p>
+          <img class="shop" src="images/shop_img.png" alt="My Industrial Furniture Website" />
+        </div>
+      </section>
+
+<!-------------------------slide 3------------------------------->
+
+    <input id="slide_3" type="radio" name="slides">
+      <section class="slide slide-three">
+        <div class="content_3 container">
+          <h2>Daisyburg</h2>
+          <p>This is a fake city website, whose front page links to real municiple websites. I created this steampunk inspired city (which is loosely
+          based on the visit Stockholm website) to be playful. The name of the city Daisyburg is in honor of one of my dogs, Daisy.</p>
+          <img class="daisyburg" src="images/daisyburg.png" alt="Welcome to Daisyburg" />
+        </div>
+      </section>
+
+<!-------------------------slide 4------------------------------->
+
+    <input id="slide_4" type="radio" name="slides">
+      <section class="slide slide-four">
+        <div class="content_4 container">
+          <h2>My Resume</h2>
+          <p>This an alternate version of my resume created with Bootstrap.</p>
+          <img class="resume" src="images/resume.png" alt="My resume screenshot" />
+        </div>
+      </section>
+
+<!-------------------------slide 5------------------------------->
+
+    <input id="slide_5" type="radio" name="slides">
+      <section class="slide slide-five">
+        <div class="content_5 container">
+          <h2>Simple Blog</h2>
+          <p>This is a simple blog created with Express.js. I taught myself the fundamentals
+            of node.js, then started learning express.js. It was suprizing easy.</p>
+          <p>Creating the app, routes, partials (which are pretty cool), and layout. It's cool how easy
+            it all comes together.</p>
+          <img class="blog" src="images/blog.png" alt="My blog screenshot" />
+        </div>
+      </section>
+
+  </div>
+
+</body>
